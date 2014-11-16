@@ -1,0 +1,73 @@
+There were 2 sections with 10 subjective questions each Duration: 2 hrs. Some questions which I remember are:
+GCD of 2 numbers recursively
+2's complement of a string program
+reverse doubly linked list
+return pointer to the middle of linked list
+draw a bst for given input of node values
+question on macros
+a question on telling the output for a given recursive program
+LCA in bs
+
+1) Analyse a given assembly language program and explain what it does.
+2) Simplify a given boolean expression.
+3) Explain a & b in a line each-
+a) void (*p)(void *a[], int n)
+b) void* (*p[])(void *a, int n)
+
+1) swap 2 integer pointers
+2) print command line arguments in reverse order
+3) sizeof( union )
+4) output of a c program with static variable
+5) diff b/w calloc and malloc
+6) w.a.p. to check if sum of 2 unsigned ints overflow or not
+7) w.a.p. to print all possible anagrams of a string
+
+2 Sections, 10 questions each section, total time 2 hours, Full subjective.
+Paper and pen test. All questions related to CSE. No aptitude questions. No MCQ’s.
+
+ Some questions :
+some microprocessor code given, tell answer
+LCA of 2 nodes in BST
+return pointer to middle of linked list in 1 pass
+Array of size n-1 has numbers 1 to n, one number missing, no number repeated, find the missing number
+What is the best STL used to find matching parenthesis 
+some theoretical questions on pointers and function
+find GCD using recursion
+find max. of 3 numbers using  ? :  only
+reverse a doubly linked list
+find 2's compliment of a no. given in string form
+some macro related questions
+Given a Hash function, find value of keys having same hash
+Given order of insertion of nodes, make BST
+given 3AC, a number in base 14, convert it to base 7. (only show working on given example, no code or algo) [ ans = 2105 ]
+Simplify a given boolean expression.
+Explain a) & b) - 
+a) void (*p)(void *a[], int n) 
+b) void* (*p[])(void *a, int n)
+
+
+        @IITM
+13 GATE pattern MCQs and 7 Coding Questions
+Platform : HackerRank
+TIme : 2 hrs
+
+Coding Questions:
+Reverse linked list
+Check balanced parentheses
+Given m*n binary matrix, where each row has all 1s first and then all 0s. You need to return row number which has maximum 1s.
+Every integer ending with 3 has at least one multiple which is made of only 1s. Ex. 3 has 111, 13 has 111111. Given integer n(LSD is 3), return its smallest such multiple.
+
+MCQs:
+char str1[] = “Hello”;
+    char str2[] = “Hello”;
+    if(str1==str2)
+        cout<<”Equal”;
+    else
+        cout<<”Not Equal”;
+
+char str1[]=”Hello”; 
+str1[6]=’b’;
+cout<<str1;
+
+
+*****there were no questions related to operating systems, computer networks or database systems

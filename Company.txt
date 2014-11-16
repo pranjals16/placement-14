@@ -1,0 +1,287 @@
+----------------------------------------------------------------------------------
+Company: CITRIX
+
+IIT KGP
+
+Networks based
+which of these protocol is not in osi 3rd layer
+options: dns,arp, osfs,
+ek tha tcp me kon sa flag nahi hota
+options: ecn psh, ack, ugr
+
+there were two strings we had to tell if they werer anagrams
+but string cud be of this form:
+Smr!t11 | sm@53r11t
+
+IITR
+1 hour apti followed by another 1 hour coding(2 que))
+1.Dont remember the actual question but it was related to 8 connectedness, i.e given a matrix of 1's and 0's you need to find number of clusters of 1's. cluster->for any cell in matrix every 8 adjacent cell for that cell will be in the same cluster.
+
+2. given the numbers print it's sentential form
+4567->four thousand five hundred and sixty seven.
+etc.
+123->one hundred and twenty three
+there was some limit specified for the number of digits.
+code is available online,easy but lenghty.
+
+aptitude:
+some c, c++ programs,os,quant apti, n/w.......not tough
+------------------------------------------------------------------
+Company: LinkedIn
+
+
+IIT Roorkee
+
+
+Online coding 1 hr , 3 Questions
+
+1. We have to implement getIntComplement() function , that will give complement (1's) of an given integer .
+
+2. There are "n" ticket windows in the railway station. ith window has ai tickets available. Price of a ticket is equal to the number of tickets remaining in that window at that time. When "m" tickets have been sold, what's the maximum amount of money the railway station can earn?
+exa. n=2, m=4
+in 2 window available tickets are : 2 , 5
+from 2nd wicket sold 4 tickets so 5+4+3+2=14.
+
+3. There is a particular sequence only uses the numbers 1, 2, 3, 4 and no two adjacent numbers are the same.
+Write a program that given n1 1s, n2 2s, n3 3s, n4 4s will output the number of such sequences using all these numbers.
+Output your answer modulo 1000000007 (10^9 + 7).
+
+-------------------------------------------------------
+Ebay 
+
+@IITD 
+Section-A
+Pen & Paper Coding: any one out of two questions in 30 mins. 
+Level: Easy
+
+1. Printing a string in wave like pattern. If the current character is greater than(a-z order) that of previous character then print it above, if it is less than current then print below and if its equal then in same line.
+e.g.
+I/P: abcbd
+O/P: (these dashes indicates spaces)
+---c-d
+--b-b
+a
+
+2. Replace the given substring with some other substring in a string.
+I/P: SUNDAY, replace SU with MO
+MONDAY
+
+Section B
+Online aptitude, 20 questions, 30 mins. +1 for correct answer, -0.25 for wrong.
+DI- tedious calculations, time consuming
+Logical- Horrible! 
+Quant- Medium but time consuming.
+
+We didn't find many people doing more than 10-12 out of 20.
+---------------------------------------------------------------
+Company: Walmart
+
+
+IIT Roorkee
+
+Date: 30th Sep
+
+
+More concentrating on basic fundamental of computer science.Due to some technical problem during online test, they took test offline. Starting section was MCQ type followed by 2 coding questions .In MCQ they covered almost all computer science subjects
+
+1. Question based on Optimal merge patter problem given list of sorted files we have to find out number of comparisons in optimal worst case
+
+2. Related to CO
+
+3. Releated to OS : 46 bit virtual add , 8 gb ram ,page size 8 KB , Each page entry size 4 bytes. We have to find out min. number of page levels
+
+4. Sliding window related question ...find out optimal window size
+
+5. Given an index of an element , From heap we have to delete tht element , they asked time complexity for tht.
+
+6. A code was given , and some options were there which is correct for this code ? (i think it was successor of a binary tree )
+
+7. undirected random graph of 8 vertices, probability that there is an edge between a pair of vertices is .5. What is the expected number of unordered cycles of length three ( i think 7 )
+
+8. Space efficient complexity was asked for find out tht number appears maximum odd times (most prob. space O(1) and time O(n logn due space efficient ))
+
+9. Sql query (more thn one ans possible)
+
+10. few regular expressions were given choose which satisfy language over (a,b) , contains atleast 2 a.(3 options were possible for this )
+
+11. An string with space , they asked time complexity to reverse these words as well as whole string .(so for some question more thn answers also possible )I remember only these question may be i forget 2-3 questions
+
+
+
+Coding section:
+
+
+1. min. jump problem for this u may refer:
+
+http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+
+
+2. A lock has n buttons. It opens if one pushes the buttons in a specific order. If one pressed the correct button, it remains in pressed state(ON). If one pushes a wrong button all the ON buttons turn to OFF state and the user has to puch the buttons again.Our hero Amit doesn't know the combination so he tries random combinations to open the lock. In the worst case how many button presses(presses not sequences of buttons) does he have to do to open the lock ?For eg. - If there are 3 buttons and correct combination is 2-3-1. Amit presess this sequence to reach the correct order - 1,2,1,2,3,1"
+
+--------------------------				Nutanix-------------------------
+------------------------------------------------------
+
+
+Hi, questions of Nutanix in IITD were -
+1. Given inorder and preorder traversal of a binary tree, print the postorder traversal of the tree.
+
+2. A maze was given with start point and an end point. Cells could be either of the form "."(can be visited) or "*"(cannot be visited). Find the minimum cost required to go from start to end. There might be cells marked with upper case alphabets as well(called portals). 
+Each portal has an entry an exit point. We can use the portals to jump from one position to the other.
+------------------------------------------------------
+
+FICO
+------------------------------------------------------
+section 1:
+30 questions : 60 mins
+15 questions : Java programs output questions (easy)
+15 questions : Aptitude (very tough probability questions (80-90 %))
+
+section 2:
+2 questions : 15 mins
+Thiking ability questions.
+1. How your education prepared you for your career?
+2. Design a train without wheels? How much is the weight of train(in kgs)? Summarize your answer with supportive reasons?
+
+------------------------------------------------------------------------------------
+
+						Oracle (Round 2 - Coding) @ IIT Madras
+-------------------------------------------------------------
+Duration: 30 mins
+
+One coding question.
+
+Some questions:
+1. Maximum number of cake pieces that can be generated from a huge circular cake with N vertical cuts.
+
+2. Given inorder, preorder traversal of a Binary Tree - give postorder.
+
+3. Rod cutting problem(DP).
+--------------------------------
+
+							Samsung India (R&D) at IIT Madras
+------------------------------------------------------
+2 Rounds:
+
+Round 1: 60 mins
+Verbal: 20 questions
+Analytical: 20 questions
+Math: 20 questions
+
+Tip: Attempt the Math part first and Verbal the last.
+
+Short list based on score in Round 1
+
+Round 2:
+Online coding round - 1 hr
+
+Questions were different for different people. Questions collected from a limited pool of questions and jumbled for everyone.
+
+3 questions
+
+1. Given a string, print the number of occurences of 1[0]*1 where * denotes zero or more occurrences of the digit 0. [5 points]
+Input: 10011abc10000001
+Output: 3
+
+2. Given a string s1 remove all occurrences of the string s2 in string s1 and also remove all occurrences of string s2 after removal of s2 in s1 and so on.. and return the string obtained after such removals. [5 points]
+Example: s1 = "qwewerrty" ; s2 = "wer "
+Output: qty
+(On the first removal of wer it becomes qwerty. On removal again now - qty. Nothing to remove now.)
+
+3. Question had some robot and story build up but the essence is this:
+You are given an mxn grid, where (0,0) refers top most left position and (m-1,n-1) the bottom most right. The grid is filled with ones. All positions in the grid that are blocked are filled with zeros. You are given this grid and are assured that there exists atleast one path from (0,0) to (m-1, n-1). Find the minimum distance of the path from (0,0) to (m-1, n-1) given that you are allowed to move only vertically, horizontally and diagonally. [8 points]
+
+----
+
+Another set of questions for Round 2. Adding the comment here for better visibility.
+
+1. (5 points) Same as the above first question.
+
+2. (5 points) Given two linked lists, where each node of a list contains the exponents and coefficients of a polynomial (in decreasing order of exponents, zero coefficients don't have nodes associated with them), perform multiplication of the two polynomials and return a linked list with the result (conditions similar to the input - decreasing order of exponents, terms with zero coefficients should not be present in the linked list)
+
+3. (8 points) Given a word with unique lower-case characters, return its rank in a dictionary that consists only of words that are anagrams of the given word.
+Eg: "take" : 6 words start with 'a', 6 with 'e', 6 with 'k', 1 with 'tae', and finally "take", so its rank is 6 + 6 + 6 + 1 + 1 = 20.
+
+----
+
+1. Given a number n, find how many substrings of it is divisible by 11. E.g: 1331 -> (1,3,3,1,13,33,31,133,331,1331) are the substrings. 33 and 1331 are divisible. So return 2.[5 pts]
+
+2. Same as the above first question.[5pt]
+
+3. You're given an array of integers. Return the largest number you can make using all the digits in the array. e.g: a=[23,45,67], return 765432. (concat everything, sort and return. )[8pt]
+
+-----------------------------------------------------
+
+Amazon @IITKGP 20MCQ (neagtive marking is there, aal questions are based on OS Time Complexites DS, Programming )+2 Coding Questions
+one only need to wrtie functions
+
+1) given set of characters find all possible strings with length k using set of characters
+
+EX; { a, b} length = 3
+output : aaa, aab, aba, abb, baa, bab, bba, bbb
+
+2) Longest ZigZag subsequnce
+
+A sequence of numbers is called a zig-zag sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a zig-zag sequence.
+
+For example, 1,7,4,9,2,5 is a zig-zag sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, 1,4,7,2,5 and 1,7,4,5,5 are not zig-zag sequences, the first because its first two differences are positive and the second because its last difference is zero.
+
+Given a sequence of integers, sequence, return the length of the longest subsequence of sequence that is a zig-zag sequence. A subsequence is obtained by deleting some number of elements (possibly zero) from the original sequence, leaving the remaining elements in their original order.
+ex: 1,7,4,9,2,5 output = 6
+
+Frequently Asked Questions in Microsoft Online Coding Round:
+
+1.A sorted list of strings interspersed with NULL in random indices is given. Return the position of a given search string. Return -1 if string not present.
+
+ex: ”a”, “b”,””,””,”c”,”", "" find “b”
+o/p: 2
+
+2.Given an array of integers where all the elements occur odd number of times except 3 elements which occur even number of times, find the three elements.
+
+i/p: 1, 1, 2, 3, 2, 4, 4, 5, 6
+o/p: 1, 2, 4
+
+If anybody gets any efiicient solution except linear search or hashmap then please post your solution.
+-----------------------------------------------------
+						ADOBE
+						
+						-----------------------------------------------------
+There were 2 sections with 10 subjective questions each Duration: 2 hrs. Some questions which I remember are:
+GCD of 2 numbers recursively
+2's complement of a string program
+reverse doubly linked list
+return pointer to the middle of linked list
+draw a bst for given input of node values
+question on macros
+a question on telling the output for a given recursive program
+LCA in bst (credits: Dharmendra)
+P.S. I will add more questions as soon as I recall any
+13 hrs
+
+
+1) Analyse a given assembly language program and explain what it does.
+2) Simplify a given boolean expression.
+3) Explain a & b in a line each-
+a) void (*p)(void *a[], int n)
+b) void* (*p[])(void *a, int n)
+
+------------------------------------------------------------------------------
+
+Had Xerox screening test @ IIT Guwahati.
+20 questions. 45 min. HackerRank Platform. 15 MCQ (with neg. marking). 5 Subjective questions.
+
+Subjective questions were puzzles. We were supposed to write the answer as plain text. Some questions I can recall were :-
+- 7 glasses kept upside down. In one move, you flip 4 glasses. Can it ever happen that all glasses are upright?
+- Calc prob. that polyhedral formed 4 points on a unit sphere contain the center of sphere
+- n coins. 1 is fake. Genuine ones are identical. Fake one can either be lighter or heavier that genuine ones. Devise a strategy to determine whether fake coin is lighter or heavier in min. no. of steps. You have a pan-balance.
+
+Forgot the remaining two. Probably someone else from IITG will comment.
+-----
+MCQs questions ranged from probability (expectation, probability distributions), Fourier transform (!!), low-pass filters (!!!!!), database, Markov chains, algorithms, graphs, derivative of a function etc.
+
+
+1. we were asked to find convolution of a discrete time sequence with itself. 2. H(w) (frequency response) was given and it was asked whether the magnitude response of this filter is low pass filter/high pass/band pass. 3. If the a real discrete time sequence is even, how will the fourier transform be? options: even,real,greater than 0 etc. 4. 2 states were given in markov chain namely 0 & 1. Probability of transitioning from 0->1 and1->0 was given along with bit error probability. It changes state in fixed time interval. I don't remember the ques, we had to calculate the probability of something.
+
+Other Subjective Questions:
+- Can you ensure atomicity of a transaction on Mobile environment?
+- Given a cube with values stored at the vertices, initially one of the vertex has value '1' and remaining vertices with '0'. You can only do this operation (any number of times): ' Increment the 2 ends of any edge by 1' . Can you make all the vertex values equal (using the above operation)? if yes, how?
+- Fold a polygon about a line cutting it. Is it true that in any case the new polygon perimeter is less than or equal to the original polygon perimeter.

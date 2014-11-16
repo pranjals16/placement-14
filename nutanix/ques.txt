@@ -1,0 +1,5 @@
+Questions of Nutanix in IITD were -
+1. Given inorder and preorder traversal of a binary tree, print the postorder traversal of the tree.
+
+2. A maze was given with start point and an end point. Cells could be either of the form "."(can be visited) or "*"(cannot be visited). Find the minimum cost required to go from start to end. There might be cells marked with upper case alphabets as well(called portals). Each portal has an entry an exit point. We can use the portals to jump from one position to the other.
+

@@ -1,0 +1,60 @@
+Walmart @IITR Sep 30
+
+12 Objective Questions(GATE like) - OS, Graph Theory, Automata, SQL, Algo
+2 Coding questions
+
+Hosted on HackerRank
+
+Due to slow internet connectivity, we were asked to solve the questions on paper which will be manually checked.
+ 
+1)Question based on Optimal merge pattern problem given list of sorted files we have to find out number of comparisons in optimal worst case.
+
+2)46 bit virtual address , 8 gb ram ,page size 8 KB , Each page entry size 4 bytes. We have to find out min. number of page levels (ans 3) 
+3)Given an index of an element , From heap we have to delete that element , they asked time complexity for that 
+
+4)Number of comparisons required in merge sort to merge n sorted arrays
+ 
+5)Reversing each word in a string. What is the complexity?
+
+6)The values of a,b,c and d lies between [1,12]. There is an edge between (a,b) and (c,d), only if mod(a-c)<=1 and mod(b-d)<=1. Count total number of edges in the graph.
+7) sliding window protocol numerical
+8) A code snippet was given. What does the above code calculate? Ans: successor of a node in a tree
+9)There are 8 vertices in a polygon. Probability of having an edge between any two vertices is 0.5. Calculate expected  number of unordered triangles.
+10) few regular expressions were given choose which satisfy language over (a,b) , contains atleast 2 a.(3 options were possible for this )
+11) We have to find the top five movie directors from a database. Which of the following query gives the correct output?
+12) Same question is given here -
+www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+ 
+ 
+ 
+Coding question
+A lock has n buttons.
+It opens if one pushes the buttons in a specific order. If one pressed the correct button, it remains in pressed state(ON). If one pushes a wrong button all the ON buttons turn to OFF state and the user has to push the buttons again.
+Our hero Amit doesn't know the combination so he tries random combinations to open the lock. In the worst case how many button presses(presses not sequences of buttons) does he have to 
+do to open the lock ?For eg. - If there are 3 buttons and correct combination is 2-3-1. Amit presess this sequence to 
+reach the correct order - 1,3,2,1,2,3,1
+
+WRITTEN PAPER							
+FORMAT ->	"12 Objective Questions(GATE like) - OS, Graph Theory, Automata, SQL, Algo
+2 Coding questions
+
+Hosted on HackerRank
+
+Due to slow internet connectivity, we were asked to solve the questions on paper which will be manually checked."						
+	WalMart- IITR [90 mins]						
+Question #							
+2							
+4	Given an index of an element , From heap we have to delete tht element , they asked time complexity for tht						
+5	Number of comparisons required in merge sort to merge n sorted arrays						
+6	Reversing each word in a string. What is the complexity?						
+14							
+
+Wallmart@IITG:
+90 mins test : 2 coding questions and 10 MCQs
+
+Coding questions :
+1. Josephus Circle.
+2. Balancing parantheseis , braces .. in an expression.
+
+MCQs:
+fairly easy.					

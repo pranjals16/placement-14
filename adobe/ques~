@@ -1,0 +1,18 @@
+There were 2 sections with 10 subjective questions each Duration: 2 hrs. Some questions which I remember are:
+GCD of 2 numbers recursively
+2's complement of a string program
+reverse doubly linked list
+return pointer to the middle of linked list
+draw a bst for given input of node values
+question on macros
+a question on telling the output for a given recursive program
+LCA in bs
+
+1) Analyse a given assembly language program and explain what it does.
+2) Simplify a given boolean expression.
+3) Explain a & b in a line each-
+a) void (*p)(void *a[], int n)
+b) void* (*p[])(void *a, int n)
+
+
+*****there were no questions related to operating systems, computer networks or database systems

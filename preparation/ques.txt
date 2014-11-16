@@ -1,0 +1,290 @@
+------------------------------------------------------------------------------------------------
+						Visa Inc. @IITB. Online coding + MCQ. 75 Minutes.
+
+=======
+
+Assessment Composition:
+
+1. Coding Skills: 2 Questions - Very simple problems - 30 marks total
+
+2. Programming: 10 Questions - Simple Java Questions
+
+3. Machine Learning Hadoop MCQ: 6 Questions
+You can't answer a single question if ML/BigData is remote-land for you.
+Linear/Logistic/Hadoop
+
+4. Networking MCQ: 6 Questions
+- Again basics. Data layer questions. IP class basic question.
+
+5. Operating System: 6 Questions
+- Memory management mostly.
+
+6. Infrastructure: 6 Questions
+- Real life scenarios - server client questions.
+
+7. Application Security: 6 Questions
+- Typical Network Security questions. 
+--------------------------------------------
+VISA@IITB
+Date : 29th Oct
+Duration 1hr 15min
+Platform : mettl.com
+
+Test Details :
+-Each MCQ carries 1 marks
+-Two coding questions carries 30 marks
+-No negative marking
+
+Section Name: Number of Questions
+------------------------------------------------------
+1. Coding Skills ---------- 2
+2. Programming ---------10
+3. Machine Learning Hadoop -----6
+4. Networking ---------- 6
+5. Operating System------- 6
+6. Infrastructure ---------6
+7. Application Security ----------- 6
+
+N.B:
+No time limit for individual section
+All students have different questions
+
+Coding Skills:
+
+Q1) Jack Sparrow's escape from Jail
+Input :
+Four arguments
+(climbUp, climbDown, noWalls, wallHeights[])
+climbUp : number of meters he can jump (1 <= climbUp <= 10^4)
+climbDown: number of meters he slides down (1 <= climbUp <= 10^4)
+noWalls : number of walls he needs to jump to escape (1 <= noWalls <= 10^4)
+wallHeights[] : 1-D array containing height of each wall(1 <= height <= 10^3)
+Output :
+Total number of jumps to output variable output1
+
+Ex :
+Input: 5:1:2:{9,10}
+Here Jack Sparrow can jump height of 5 meters, but slides down by 1 meter. He has 2 walls to jump and the height of each wall is 9 and 10 meteres, resp. For 1st wall he needs two attempts(5m up-> 1m down-> 5m up) to cross it. In the same way he needs 3 attempts to cross 2nd wall. SO total 5 attempt.
+Q2) The Pizzeria Problem
+One pizzeria staff member has to serve "n" number of customers. He can serve one pizza at a time. Each customers pizza receiving time, and time taken to come back to the pizzeria are given. You have to find out maximum number of possible pizza deliveries.
+Note :TIme taken by the delivery boy to customer is negligible
+
+Input:
+N : Number of customers
+a[N] : Pizza receiving time
+b[N] : Time needed to come back to pizzeria after delivering to ith customer
+Output:
+Maximum Number of orders that can be fulfilled using the scheduling you made
+
+Ex :
+Input : 5 {3 6 1 4 7} {5 8 4 7 10}
+output: 3 (Explanation : a[2]->a[3]->a[4])
+
+Programming MCQ:
+1. While deleting records from B+ tree when do we take this action "combine" the leaf page and its sibling & change the index page to reflect the change ?
+a) when the leaf page and index page are not below fill factor.
+b) when the leaf page are below fill factor and index page are not below fill factor.
+c) when the leaf page and index page are below fill factor.
+d) when the leaf page are not below fill factor and index page is below fill factor.
+2) Analysis of time complexity remains an open problem for which of these sorting algorithms ?
+a)Shell sort
+b)Quick sort
+c)Tim sort
+d)None
+3)Illigal identifier ?
+a) int _a;
+b) int e#
+c) int $c;
+d) int this_is;
+4) Output ?
+public class Test extends Thread
+{
+public void run()
+{
+System.out.println("Start");
+yield();
+System.out.println("End");
+}
+public static void main(String argv[])
+{
+(new Test()).start();
+}
+}
+a)Start
+End
+b)End
+c)Start
+d)End
+e)Compile err
+
+5) Simple interface inheritance code
+
+6) float f=10.2f
+double d=10.2
+System.out.println(f==d);
+a) Compile time err b) run time err c) True d) False e) None
+
+7) Object-oriented programming includes which of the following features ?
+i. Data encapsulation
+ii. Operator overloading
+iii. Inheritance
+iv. Automatic initialization of objects
+a) i & ii b) i, ii & iii c) i, ii & iv d) all
+
+8) Abstraction defination
+
+9)
+
+10) Which of these about RBL tree is incorrect ?
+
+Networking MCQ :
+
+1) Valid host range for the subnet on which the IP address 192.168.168.188 255.255.255.192 resides ?
+a. 192.168.168.128-190
+b. 192.168.168.128-192
+c. 192.168.168.129-190
+d. 192.168.168.129-191
+
+2) TCP/IP protocol used for file transfer
+
+3) Network h/w component operates through all seven layers of the OSI model
+
+4) Fields contained within IEEE Ethernet frame header ?
+i. Source and destination MAC address
+ii. Source and destination n/w address
+iii. Source and destination MAC address and n/w address
+iv. FCS field
+a. i & iv b. ii c. ii & iii d. iii
+5) When data is encapsulated which is the correct order ?
+Options : Four diff permutation of (Data, frame, packet, segment, bit)
+6) __________ provides the flexibility in how devices are wired together.
+a. Bus n/w b. RIng n/w c. Star n/w d. T-switched n/w e. None
+
+Operating System :
+
+1) A process from the memory, temporarily sent to the disk and brought back to the memory to continue the execution is called as ---------
+a. swapping b. Backing store c. Thrashing d. Paging
+
+2) Context switching is increased by ________
+a. Frag mentation b. Page fault c. Paging d. Thrashing
+
+3) The memory is partitioned into several fixed size partitions. One partition may contain _______________
+a. Miltiple process b. single process c. Less than 2 process d. no process
+4) Command for creating new file without opening it ?
+5) Which is NOT a Shell ?
+a. KSH b. SH c. CSH d. TCSH d. None
+6) A process is thrashing if _____________
+
+Infrastructure :
+
+1) while recovering data from 4 disk RAID volumes, admin identifies that there ia a duplicate copy of complete data on two of the disks. Which of the RAID levels was in use ?
+a. RAID 0 b. RAID 5 c. RAID 6 d. RAID 10
+
+2) Which type of memory shoud be installed in the server for getting operating speed upto 1.2GHz and transfer rate upto 10700 MB/sec ?
+a. DRAM b. RDRAM c. DDR SDRAM d. BDDR SDRAM
+
+3) Which of the following is true ?
+DBMS automatically creates indexes for
+a. PK but not for unique key
+b. unique key but not for PK
+c. both
+d. none
+
+4) In formal lang theory, a "Regex" is a ?
+5) In context of configuration management, which of the following is/are available s/w packages ?
+a. CHef
+b. Peppercom
+c. Salt
+d. Basil
+e. Puppet
+Ans ____________
+
+Application Security :
+
+1) With symmetric ciphers, it is possible to encrypt a 32-bit message and obtain a 32 bit cipher test. Is it possible with a public-key system ?
+2) What is meant by a positive security model ?
+3) Want to use both commepression and encryption. Which of the option make sense ?
+a. Comp then ency b. Encry then comp c. Order doesn't matter d.Order doesn't matter, neither achieves comp
+4) Exploitation of heartblees bug permits ______________
+5) Let (S,V) be a deterministic MAC system with message space M and key space K. Which of the following properties is implied by the standard MAC security def ?
+
+Some more coding questions:
+
+1). Get next prime number for input n
+
+2). Problem reduced to square of fibonacci number for input n
+
+3). Count number of inversions..
+
+4). Nim Game
+
+5). given preorder, inorder, calculate postorder..
+6). N clothes each of a given length and hanging on a rope at position i, calculate number of clothes finally visible..
+Example: (2,4) (1,3) (3,5) : output is 2 2nd and 3rd cloth will be visible..
+7). A number x is mapped to 'x + (number of 1 bits in x)'
+Calculate from the given array, the count of numbers which can't be mapped in this way..
+For example: 3 is mapped to 5, 2 is mapped to 3..
+So, 5 and 3 can be mapped by some number.. But 4 can't be mapped.
+
+8). Find max number of characters(excluding whitespaces) between two occurrences of a given character in a given string, and if given character is not in the string or appear once then return -1.
+9). Two player Game: You are given N stacks, each stack contain certain number of balls. A player first choose one stack and can remove 1 or more balls from it. Return 1 if player1(1st one to play) wins 2 otherwise. Both the players are playing optimally.
+
+10). Question boiled down to finding sum of all numbers in the nth row of the Pascal's triangle (2 ^ n).
+
+11). You are given a large cake, you can make n (<= 10 ^ 9) vertical cuts, what is the maximum number of pieces you can make modulo 10^9 + 7. (You can double the number of pieces in each cut by stacking the pieces upon each other and then making a cut. So answer is 2 ^ n modulo 10^9+7). Both the questions had the same answer! Only difference: n was small enough for a one line solution in the first question.
+
+12) given array of integers and sum, find in how many ways you can select subset of array whose sum is given sum.
+
+13) given array of 10^6 positions, initially 0, perform queries. Query is to increment given position by 1. Each query was followed by some start and end positions, give sum of sub-array for each query.
+
+--
+							Mathworks telephonic interview (IITM). Duration : 1hr'
+------------------------------------------------------------------
+
+1. Basic Math: derive sum of 1,2..n, derive harmonic series sum, cosine series, simple venn diagram problem, probability of getting same number in 4 sided and 6 sided dice
+
+2. Time complexities: Upper/lower bound on comparisons in sorting, derive time complexity using recurrence relation(master thm), which is asymptotically larger?
+
+3. Algorithms: stack using queues
+
+4. OS: what is mutex. different synchronization methods
+
+5. TOC: difference between NFA and DFA
+
+6. C: code snippets based on pointers, postfix operators, malloc, calloc. Diff between malloc and calloc. diff between structure and union,
+
+7. C++: what is oop, types of polymorphism, virtual functions, code snippets on base class- derived class relationship, can struct have member functions. if so what is their default access specifier
+
+8. Java: what is jdk, jre, jvm. what is abstract class. diff between abstract class and interface, what are generics, explain each part in "public static void main(String [] args)". some code snippets about inheritence
+
+
+One more experience :
+
+
+I chose Matlab over Java, so I'm adding questions from Matlab:
+(1) Difference between A^2 and A.^2
+(2) You write a function myFun() in Matlab, but when you try to use it, it says 'Undefined function', what's the reason, how to fix it
+(3) Array A of length 100, create array B with every third element from A
+(4) Concatenate two matrices of size 3x3 and 4x3
+(5) filename = 'something', target ='.target', how do you concate them to load 'something.target'
+(6) Difference between functions and scripts
+(7) X = [1 11; 2 22; 3 33], plot using green stars
+(8) What are %, ~, ! and '@' used for in Matlab
+
+
+One more ....
+
+Some questions apart from above..
+1. Can we force Java's garbage collection?
+2. Use of null pointer
+3. what is #include?
+4. Connected graph
+
+
+One more ....
+
+Almost same for me. Additional things asked were about tan series, 4 color theorem in graphs,search in binary tree, binary search tree, np completeness; char* a = (char*) malloc(12); sizeof(a) , sizeof(*a); about caches; virtual functions; run time polymorphism , etc in c++ and java.
+
+
+
+----------------------------------------------------------------------------------------------------------

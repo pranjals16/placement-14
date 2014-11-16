@@ -1,0 +1,149 @@
+( Same questions asked in all IIT’s till now )
+
+http://www.codechef.com/DI14R011
+
+http://www.codechef.com/DI14R018   lIT BHU
+
+http://www.codechef.com/DI14R019   IIT BHU
+
+http://www.codechef.com/DI14R024   IIT M (Set Bits and Smallest Rectangular String problem)
+
+@IIT-Delhi  Colorful Knapsack + Best 2x2 Sudoku    @IITG
+
+
+Directi @IITR, 18th October 2014
+2 Questions
+90 min.
+Platform codechef
+Q1:
+The i-th stone has the color C[i] ( between 1 to M, inclusive).
+The Knapsack can hold a total weight of X. Fill knapsack with these stones. we                                 have to select exactly one of each M stone colors.
+sum of the weights of the stones must not exceed X.
+We have to fill the Knapsack as much as possible.(hence minimize unused capacity.)
+Input
+number of test cases.
+The first line of each test case contains three integers, N, M and X,
+The N integers, W[1], W[2], W[3] ... W[N], (Weight )
+N integers C[1], C[2], C[3] ... C[N],
+Output the unused capacity of the Knapsack (a single integer on a line by itself) for an optimal way. If there is no way to fill the Knapsack, output -1.
+Constraints
+1 ≤ T ≤ 10
+1 ≤ M ≤ 100
+M ≤ N ≤ 100
+1 ≤ W[i] ≤ 100
+1 ≤ C[i] ≤ M
+1 ≤ X ≤ 10000
+Sample Input
+3(test cases)
+9 3 10(1 st test)
+2 3 4 2 3 4 2 3 4(wt)
+
+1 1 1 2 2 2 3 3 3(color)
+9 3 10(2nd test )
+1 3 5 1 3 5 1 3 5(wt)
+1 1 1 2 2 2 3 3 3(color)
+3 3 10(3rd test)
+3 4 4(wt)
+1 2 3(color)
+Sample Output
+0
+1
+-1
+Note: brute-force solution will fail.
+
+Q2:
+There is a bit array of length 10000000. An operation is performed several times on this array with given start and end indices (one pair). An operation flips all bits b/w start and end indices(inclusive) of bit array. After the N operations, you need to tell the frequencies of 16 hex digits in that array.
+0<=N<=1000.
+Note: There will be exact 2500000 hex digits.    
+Input:
+
+
+1(# of test cases)
+2(# of operations)
+3 6 
+5 8
+Output:
+2499998 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0
+
+Note: Each pair of 4 bits represents a hex digit.
+        : In the example, bits after 1st op: 00111100……..
+        :                                after 2nd op: 0011001100….
+        : So, there are  and  2 3’s rest of them are 0’s.
+Note: Brute force will give TLE.
+
+
+Directi@IITM
+
+two 2 questions 
+90 min 
+
+q1
+set bits
+
+You are given a large array of 10,000,000 bits. Each bit is initially 0. You perform several operations of the type "Flip all the bits between start_index and end_index, inclusive". Given a sequence of several such operations, perform all the operations on the array. Finally, split the array into sets of 4 bits - first four, next four, then next four and so on. Each set can represent a hexadecimal integer. There will be exactly 2,500,000 hexadecimal integers. Calculate the frequency of each of the hexadecimal integers from '0' to 'f' among the 2,500,000 integers, and print it. See Input / Output and explanation of Sample Input / Output for clarity.
+Input
+The first line of input contains an integer T (1 ≤ T ≤ 10), the number of test cases. Then follows the description of T test cases. You should assume that the array has exactly 10,000,000 bits and that the bits are all unset at the start of each test case. The first line of each test case contains an integer N (1 ≤ N ≤ 10,000), the number of operations performed. The next N lines contain two integers separated by a space, the start_index and end_index for the respective operation. Note that the flip operation is performed from start_index to end_index, inclusive. Also, the array is 1-indexed - meaning, the smallest index is 1 and the largest index is 10,000,000.
+Output
+For each test case, output 16 integers on a single line, separated by single space characters. The first integer should represent the number of times 0 occurs among the 2,500,000 hexadecimal integers created according to the problem statement. The second integer should represent the number of times 1 occurs among the 2,500,000 hexadecimal integers created according to the problem statement, and so on.
+Constraints
+1 ≤ start_index ≤ end_index
+start_index ≤ end_index ≤ 10,000,000
+
+
+Sample Input
+2
+2
+1 4
+9999997 10000000
+2
+3 6
+5 8
+
+
+
+Sample Output
+2499998 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+2499998 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+
+Explanation
+In the first test case, after we perform the two operations and split the array into 2,500,000 groups of 4 bits, the first and the last group will have all 4 bits set - representing 'f' hexadecimal digit. All the other groups will have all 4 bits unset - representing '0' hexadecimal digit.
+In the second test case, after we perform the two operations and split the array into 2,500,000 groups of 4 bits, the first two groups will have the state 0011. This represents the hexadecimal digit '3'. All the other groups will have all the 4 bits unset - representing '0' hexadecimal digit.
+q2
+smallest rectangle
+
+You are given a rectangular grid with 2 rows and N columns. The top row is labeled 1 and the bottom row is labeled 2. The columns are labeled from 1 to N in increasing order. Each cell in the grid contains a single character.
+Consider a hamiltonian walk in this grid. Meaning, pick a starting cell, say (i,j), and consider a path that starts from (i,j) and goes through every cell in the grid exactly once. Note that you can only walk to adjacent cells, or cells that you share a common edge with. There may be several such paths. Let us concatenate the characters in the order in which the cells are visited during a walk. The string formed can be called the string for the walk.
+Among all the possible walks, and their respective strings, find out the lexicographically smallest string. We know that the length of the strings are all the same - to be precise, 2N. Thus, the lexicographically smallest string is simply the alphabetically smallest string if you compare the characters from left to right.
+Input
+The first line of input contains a number T, the number of test cases. Then follow T test cases. Each test case contains 3 lines. The first line contains the number N, the number of columns in the grid. It is well known of course that the grid contains 2 rows. The next two lines contain the description of the grid in the form of two strings; the string of N characters in row 1 from left to right and the string of N characters in row 2 from left to right, respectively. Each character will be a lowercase engish letter.
+Output
+Output a single line for each test case. The line must contain a string with 2N characters. This string should be the lexicographically smallest string for some hamiltonian walk in the grid.
+Constraints
+1 ≤ T ≤ 100
+1 ≤ N ≤ 10
+
+
+
+Sample Input
+2
+3
+abc
+def
+10
+ababaaabab
+bababababa
+
+
+
+Sample Output
+abcfed
+aaababababababababab
+
+
+
+Explanation
+In the first test the possible strings are { abcfed, adebcf, adefcb, badefc, bcfeda, cbadef, cfedab, cfebad, dabcfe, dabefc, defcba, edabcf, efcbad, fedabc, fcbade, fcbeda }. The smallest string is abcfed.
+    
+

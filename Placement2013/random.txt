@@ -1,0 +1,133 @@
+www.geeksquiz.com
+www.geeksforgeeks.com
+gurmeet.net/puzzles
+www.prepnut.com
+spo.iitk.ac.in/ goto preparation portal and look for puzzles, aptitude and core <- very helpful
+
+
+I remember only challenging questions, some of which I could not solve
+
+PlacementPaper-I.pdf
+PlacementPaper-II.pdf
+
+Advice: Please don't apply in companies you don't want to go. Otherwise you'll be in deep trouble; like what happened with me in the McKinsey case. I was fortunate to the highest order that someone brought the whole mess down, though with evil intentions.
+
+PlacementPaper2Solutions.pdf
+
+WorldQuant Test:
+Simple C-based coding questions like "what does the code snippet do?"
+Simple questions from linear algebra, aptitude, probability 
+
+Google Test: written test
+http://viharri.blogspot.in/2012/02/section-1.html
+Write a functino to recognize the language h^n i^n r^n e^n and concatenations e.g. hire, hhiirree, hirehire, hhhiiirrreeehire
+
+Epic Test:
+Both time and accuracy were important. Simple CAT-like aptitude questions. A simple English section to test your grammar, vocabulary and verbal skills. Two coding questions, I remember only one: You've to list all 10-digit telephone numbers such that
+1. If the number contains 4, it must start with 4
+2. Either contain no 7 or two 7s
+3. similar simple constraints
+The coding interface was simple, no sophistication; answers were meant to be reviewed manually
+
+Fuzzy Logix:
+3 essays: What would you have done for betterment of cricket if you were BCCI chairman? ... of India if you were the PM? ... of Fuzy Logix if you were the CEO? I think the shortlist was totally based on these English compositions.
+
+Chronus test
+good question on OOP, OS, DB, N/Ws, algorithms, coding, web development and aptitude
+God! Who asks question based on CSS, HTML, XSS? :P One of the questions asked about CSS border and box attributes.
+
+Microsoft test
+quality questions on OOP, algorithms and coding; best references are the websites listed in the beginning
+Two coding questions:
+Pairwise flip a linked list e.g. a-b-c-d-e-f-o gets converted to b-a-d-c-f-e-o, where o is NULL
+Game based question: given a mxn 2d array and a click position (x,y), you destroy cells of color same as the clicked cell; then the cells from the top fill the newly created space e.g.
+1 2 2 3 1 1 2
+2 3 1 1 3 2 3
+2 3 1 2 3 1 2
+3 2 2 1 2 3 2
+3 2 2 2 2 3 1
+____^ click here
+
+result:
+1         1 2
+2     3   2 3
+2 2 2 1 1 1 2
+3 3 1 2 3 3 2
+3 3 1 1 3 3 1
+
+you'd been given function prototypes and templates; you just had to fill with code containing logic
+e.g. click(int x, int y, int[][] arr){
+//write your code here
+}
+
+Goldman Sachs Test:
+Extremely good quality questions; 3 sections
+section 1: puzzles, aptitude, probability
+section 2: maths, proofs, discrete maths
+section 3: totally for CS people: OS, DB, N/Ws, Algorithms
+I heard that it is enough to get exceotionally good marks in one of the sections, with some acceptable performance in other sections
+
+Opera Solutions Test:
+Extremely good quality questions based on CS concepts focussing on SQL (I don't remember)
+OS, DB, SQL, N/Ws, Algo
+
+Pocket Gems Test:
+Legacy DP based difficult questions like those available online:
+1. Given a set of numbers e.g. {3,4,5,3,-2, 3, -5}, find whether getting a sum S is possible where you are allowed to change the sign of a number. e.g. you ccan get -3-4+5-3-2-3-5 = -15 
+2. A very difficult question which I don't remember 
+3. A very difficult question which I don't remember
+PG didn't take any of the candidates; I think they did so just to maintain their relations with IITK, which suffered a setback last year as PG withdrew after offering jobs
+
+Amazon Test:
+Good quality questions on OOP, OS, Algo, NWs
+2 Coding questions:
+1. Reverse a linked list
+2. Given an array of strings representing dates in "DD/MM/YYYY" format, sort them
+
+Directi Test:
+Legacy codechef like questions
+1. Given a sequence of numbers, insert them into binary search tree, then print level order traversal of the tree
+2. Don't remember
+
+SAP Labs Test:
+All-round test of simple aptitude, maths, coding questions
+One section on essay writing : "Urban Vs. Rural lifestyle" and english grammar, vocabulary
+Coding question: "Reverse each word and capitalize the first letter" e.g. "Hello! How are you?" -> "!olleh Woh Era ?uoy"
+
+Oracle Test:
+5 sections
+aptitude, maths, probability, CS
+see this folder for oracle10.zip
+I don't remember much. This directly implies that questions were easy.
+
+Tower Research Test:
+Excellent quality original questions based on OOP, DM, algos
+e.g. 1. we randomly select 3 points on a unit circle, what is expected length of arc containing poiint (1,0)
+2. given a number n, we see all ways it can be expressed as m^k; we replace it with m+k-2 such that it is minimum
+We do this until we obtain 1. Ouput the number of steps.
+3. given a number n, we consider all ways of expressing it as \sum_{i=1}^k i*p(i), where P() is a permutation of first k natural numbers
+Let there be f(n) such ways. Prove that there exists n<230 such that f(n)>3000
+
+Samsung Test:
+Child's play; an example of an interesting question: What algo is used to find shortest path between two points in a graph? Breadth first search, Kruskal Algo, Breadth Second Search, None of these
+
+Nutanix Test:
+Two good coding questions:
+1. Reverse words and capitalize first letter <- like in case of SAP labs
+2. Integer Knapsack problem <- see wikipedia
+
+Adobe Test:
+14 MCQ, 6 small coding questions 
+one difficult coding question: any number that has a 3 at one's place has a multiple of the form 111.....111 e.g. 3 has a multiple 111, 13 has 111111 as its multiple. Given a number ending in 3, output its corresponding multiple
+
+Inmobi Test:
+Don't remember a thing
+
+VmWare:
+1. difficult puzzles, aptitude, CA-like questions
+2. Coding C,C++, Java OOP questions
+
+LinkedIn:
+1. list all triples (a,b,c) such that a^2 + b^2 + c^2 = N
+2. Two containers, capacities M and N litres. Allowed Operations: fill a container, empty a container, transfer contents of one container into another. Find whether it is possible to measure L liters using these. e.g. M=3, N=4, L = 1 <- it is possible transfer 3 litres to get 1 litre in the 4L container.
+3. Subset sum problem

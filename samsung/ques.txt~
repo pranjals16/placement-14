@@ -1,0 +1,53 @@
+Samsung India (R&D) at IIT Madras,20/10/2014
+2 Rounds:
+
+1. Determine whether the anagram of a given string can be a palindrome.
+3. You're given an array of integers. Return the largest number you can make using all the digits in the array. e.g: a=[23,45,67], return 765432. (concat everything, sort and return. )
+
+1. Given a number n, find how many substrings of it is divisible by 11. E.g: 1331 -> (1,3,3,1,13,33,31,133,331,1331) are the substrings. 33 and 1331 are divisible. So return 2.[5 pts]
+3. You're given an array of integers. Return the largest number you can make using all the digits in the array. e.g: a=[23,45,67], return 765432. (concat everything, sort and return. )
+
+------------------------------------------------------------------------------------------
+Samsung R & D Questions IITD : (same pattern as described in the doc)
+
+1. https://oj.leetcode.com/problems/wildcard-matching/
+
+2. http://www.geeksforgeeks.org/largest-sum-contiguous-subarr…/
+
+3. (this is already there in the doc) You're given an array of integers. Return the largest number you can make using all the digits in the array. e.g: a=[23,45,67], return 765432.)
+
+
+Samsung India (R&D) @IITM, 19th October 2014
+Round 1: 60 mins
+Verbal: 20 questions           if(text[k]=='s')
+Analytical: 20 questions
+Math: 20 questions
+Tip: Attempt the Math part first and Verbal the last.
+Short list based on score in Round 1
+
+
+Round 2:
+Online coding round - 1 hr
+Questions were different for different people. Questions collected from a limited pool of questions and jumbled for everyone.
+3 questions for each student. 1 question for 8 points and 2 for 5 points each.
+1. Given a string, print the number of occurrences of 1[0]*1 where * denotes zero or more occurrences of the digit 0. [5 points]
+Input: 10011abc10000001
+Output: 3
+
+2. Given a string s1 remove all occurrences of the string s2 in string s1 and also remove all occurrences of string s2 after removal of s2 in s1 and so on.. and return the string obtained after such removals. [5 points]
+Example: s1 = "qwewerrty" ; s2 = "wer "
+Output: qty 
+(On the first removal of wer it becomes qwerty. On removal again now - qty. Nothing to remove now.)
+
+3. Question had some robot and story build up but the essence is this:
+You are given an mxn grid, where (0,0) refers top most left position and (m-1,n-1) the bottom most right. The grid is filled with ones. All positions in the grid that are blocked are filled with zeros. You are given this grid and are assured that there exists atleast one path from (0,0) to (m-1, n-1). Find the minimum distance of the path from (0,0) to (m-1, n-1) given that you are allowed to move only vertically, horizontally and diagonally. [8 points]
+
+4. Given two linked lists, where each node of a list contains the exponents and coefficients of a polynomial (in decreasing order of exponents, zero coefficients don't have nodes associated with them), perform multiplication of the two polynomials and return a linked list with the result (conditions similar to the input - decreasing order of exponents, terms with zero coefficients should not be present in the linked list) [5 points]
+
+5. Given a word with unique lower-case characters, return its rank in a dictionary that consists only of words that are anagrams of the given word.
+Eg: "take" : 6 words start with 'a', 6 with 'e', 6 with 'k', 1 with 'tae', and finally "take", so its rank is 6 + 6 + 6 + 1 + 1 = 20. [8 points]
+2 Rounds:
+
+Samsung@IITG
+Same Pattern and almost same set of coding questions as in other IITs.
+

@@ -1,0 +1,267 @@
+Company: Walmart
+
+
+IIT Roorkee
+
+Date: 30th Sep
+
+
+More concentrating on basic fundamental of computer science.Due to some technical problem during online test, they took test offline. Starting section was MCQ type followed by 2 coding questions .In MCQ they covered almost all computer science subjects
+
+1. Question based on Optimal merge patter problem given list of sorted files we have to find out number of comparisons in optimal worst case
+
+2. Related to CO
+
+3. Releated to OS : 46 bit virtual add , 8 gb ram ,page size 8 KB , Each page entry size 4 bytes. We have to find out min. number of page levels
+
+4. Sliding window related question ...find out optimal window size
+
+5. Given an index of an element , From heap we have to delete tht element , they asked time complexity for tht.
+
+6. A code was given , and some options were there which is correct for this code ? (i think it was successor of a binary tree )
+
+7. undirected random graph of 8 vertices, probability that there is an edge between a pair of vertices is .5. What is the expected number of unordered cycles of length three ( i think 7 )
+
+8. Space efficient complexity was asked for find out tht number appears maximum odd times (most prob. space O(1) and time O(n logn due space efficient ))
+
+9. Sql query (more thn one ans possible)
+
+10. few regular expressions were given choose which satisfy language over (a,b) , contains atleast 2 a.(3 options were possible for this )
+
+11. An string with space , they asked time complexity to reverse these words as well as whole string .(so for some question more thn answers also possible )I remember only these question may be i forget 2-3 questions
+
+
+
+Coding section:
+
+
+1. min. jump problem for this u may refer:
+
+http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+
+
+2. A lock has n buttons. It opens if one pushes the buttons in a specific order. If one pressed the correct button, it remains in pressed state(ON). If one pushes a wrong button all the ON buttons turn to OFF state and the user has to puch the buttons again.Our hero Amit doesn't know the combination so he tries random combinations to open the lock. In the worst case how many button presses(presses not sequences of buttons) does he have to do to open the lock ?For eg. - If there are 3 buttons and correct combination is 2-3-1. Amit presess this sequence to reach the correct order - 1,2,1,2,3,1"
+
+
+
+Company: CITRIX
+
+IIT KGP
+
+Networks based
+which of these protocol is not in osi 3rd layer
+options: dns,arp, osfs,
+ek tha tcp me kon sa flag nahi hota
+options: ecn psh, ack, ugr
+
+there were two strings we had to tell if they werer anagrams
+but string cud be of this form:
+Smr!t11 | sm@53r11t
+
+------------------
+IIT Roorkee
+
+
+(1 hour apti followed by another 1 hour coding(2 que))
+1.Dont remember the actual question but it was related to 8 connectedness, i.e given a matrix of 1's and 0's you need to find number of clusters of 1's. cluster->for any cell in matrix every 8 adjacent cell for that cell will be in the same cluster.
+
+2. given the numbers print it's sentential form
+4567->four thousand five hundred and sixty seven.
+etc.
+123->one hundred and twenty three
+there was some limit specified for the number of digits.
+code is available online,easy but lenghty.
+
+aptitude:
+some c, c++ programs,os,quant apti, n/w.......not tough
+
+
+Company: Service Now
+
+
+IIT Kanpur
+
+
+No negative Marking
+30 MCQ in 45 mins, many qsns from DBMS
+2 or 3 output of C programs -> 1 from recursion, 2 or 3 apti work-men problem and boat-stream based , divide money among 2 children, 1 algo graph based qsn , 1 total seek time of disk sch. FCFS, postorder traversal of given tree, what is macro
+
+other questions ->
+
+finding no of articulation point in a graph,
+DFS run on a graph and some properties is given find true/false,
+no of bits in ipV6,
+IEEE wifi standard,
+SQL DISTINCT keyword,
+SQL query with index given
+Threads structure
+
+
+Company: Service Now
+
+
+IIT Kharagpur
+
+
+
+30 MCQ in 30 mins
+7 or 8 output of C programs -> 2 from recursion, 1 apti que divide money among 2 children, 1 dfs graph based qsn, 1 total seek time of disk sch. SSTF, 1 process sch. que SRTF, 1 regular exp que, 1 postorder traversal of given tree, 1 web browser related que, 3 or 4 sql query,
+
+
+Company: Amazon
+
+
+IIIT Delhi
+1. In a 2-D sorted matrix with element sorted row-wise(top to bottom) and column-wise(left to right), write an optimal program to find a particular element.
+2. reverse a linked list without recursion and with recursion(using 2 and single pointers respectively).
+3. For a binary tree, print the elements in level order starting at last level up to level 0.
+4. Find an unique element in a sorted array which have all the elements occuring exactly twice except one(find this element). Give an optimal solution.
+5. rotate sorted array by an input value K efficiently.
+6. Addition of 2 binary numbers given as an input in 2 strings.
+7. For a 2-D matrix having only binary elements(0/1), find the largest submatrix with all 1's efficiently.
+8. if you look at a binary tree from right side, then print all elements which are visible from right side veiw.
+9. Rotate the 2D matrix clockwise and anticlockwise efficiently.
+10. Find a longest common subsequence in given 2 input arrays.
+
+
+Company: Oracle
+
+
+IIT Roorkee
+
+reasoning, verbal, computer section , quant:
+Questions were easy to moderate ...no negative marking
+computer section was easy..
+questions related to direction ,Age, sitting arrangement, men and works, mirror image, etc ......
+English ordering sentences, and choose correct word type questions etc.....
+Question were selected randomly from pool of questions......
+
+Company: Browser Stack
+
+
+IIT Roorkee
+
+Online coding 3hrs, 2 questions, 20 marks each
+
+Problem 1: Write a program which takes JSON as input and gives prettified JSON
+a)You need to read JSON from STDIN. Input gives one line of uglified JSON.
+b)Output should be formatted JSON.
+Given two JSON objects, find the values of fields. whose values are different.
+Eg. Input
+{"Geeks":"Test1","Are":"hey","Cool":"yeah"}
+{"Geeks":"Test1","Are":"20","Cool": ['B','C'] }
+Ans: Are:Cool
+Answer shud be in above format ..
+
+Problem 2: Given a string and a Regular Expression pattern, give the number of the times the pattern occurs in the string. RegEx symbols mean as follows:
+. - 2 occurrences of the previous character, + - 4 occurrences of previous character, * - more than 5 occurrences of the previous character
+
+Sample Input (Plaintext Link)
+5
+aaaaaannndnnnnnnfffhfhhgjjjwkkkllclc
+a.
+n+
+a*
+an.
+a.d.
+
+Sample Output (Plaintext Link)
+5
+3
+2
+1
+0
+
+Company: Browser Stack
+
+
+IIT Delhi
+
+Date: 14th Oct
+problem 1: Write a program that accepts a number n (in the range 1 to 2000) and outputs the sum of all the digits in the decimal representation of n!.
+
+For example: If n is 10, then n! = 10! = 3628800. The output should be 27 in this case
+
+problem2: Given a string and a Regular Expression pattern, give the number of the times the pattern occurs in the string. RegEx symbols mean as follows:
+. - 2 occurrences of the previous character, + - 4 occurrences of previous character, * - more than 5 occurrences of the previous character
+
+Sample Input (Plaintext Link)
+5
+aaaaaannndnnnnnnfffhfhhgjjjwkkkllclc
+a.
+n+
+a*
+an.
+a.d.
+
+Sample Output (Plaintext Link)
+5
+3
+2
+1
+0
+
+Company: LinkedIn
+
+
+IIT Roorkee
+
+
+Online coding 1 hr , 3 Questions
+
+1. We have to implement getIntComplement() function , that will give complement (1's) of an given integer .
+
+2. There are "n" ticket windows in the railway station. ith window has ai tickets available. Price of a ticket is equal to the number of tickets remaining in that window at that time. When "m" tickets have been sold, what's the maximum amount of money the railway station can earn?
+exa. n=2, m=4
+in 2 window available tickets are : 2 , 5
+from 2nd wicket sold 4 tickets so 5+4+3+2=14.
+
+3. There is a particular sequence only uses the numbers 1, 2, 3, 4 and no two adjacent numbers are the same.
+Write a program that given n1 1s, n2 2s, n3 3s, n4 4s will output the number of such sequences using all these numbers.
+Output your answer modulo 1000000007 (10^9 + 7).
+
+Ebay @IITD 
+Section-A
+Pen & Paper Coding: any one out of two questions in 30 mins. 
+Level: Easy
+
+1. Printing a string in wave like pattern. If the current character is greater than(a-z order) that of previous character then print it above, if it is less than current then print below and if its equal then in same line.
+e.g.
+I/P: abcbd
+O/P: (these dashes indicates spaces)
+---c-d
+--b-b
+a
+
+2. Replace the given substring with some other substring in a string.
+I/P: SUNDAY, replace SU with MO
+MONDAY
+
+Section B
+Online aptitude, 20 questions, 30 mins. +1 for correct answer, -0.25 for wrong.
+DI- tedious calculations, time consuming
+Logical- Horrible! 
+Quant- Medium but time consuming.
+
+We didn't find many people doing more than 10-12 out of 20.
+
+Epic Systems @IITD
+-------------------
+4 sections.
+A. Speed Calculations: 2 mins 10 questions, attend as much as u can.
+
+B. Apti: 12 questions
+
+C. Technical: 20 questions, based on some newly defined language.
+section B,C did not have any sectional time limit. But you need to finish these 3 sections within 75 mins. You will be judged on speed and accuracy. So try do complete as fast as possible.
+
+D. Coding: 4 questions, 2 hrs. But again you will judged based on speed and accuracy. Write functions. Pseudo codes are allowed. Its like a online version of pen and paper coding. Questions of this section was different for everyone. I am sharing my questions.
+#1. Suppose all months have 30 days. There's 12 months in a year. February would have 31 days in a Leap year. condition for leap year is defined as (year%40==0) is leap, (year%200==0) is not leap, (year%1000==0) is leap. Given a date as MM/DD/YYYY, find the next Leap Day.
+#2. Print matrix in spiral order.
+#3. U have to print all possible combinations of phone numbers. The length of the number will be given. Also 3 digits will be given, which can not be used. No two consecutive digits would be same. A number containing 4 would always have 4 in the beginning.
+#4. Given a number, get all possible substrings using the digits of this number and if the product of digits in one subset is same with the another, then return false, else return true.
+e.g. 345={3,4,34,45,35,345}
+products are{3,4,5,12,20,15,60} hence true
+3426={3,4,2,6,34,42,26,....}
+product ={3,4,2,6,12,8,12,..} hence false. (products of 34 and 26 are same)
+

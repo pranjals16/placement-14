@@ -1,0 +1,64 @@
+Citrix@IITG(06-11-14)
+50MCQ including code-snippet, OS, Aptitude, Network
+Three Englishmen and three Frenchmen work for the same company. Each of them knows a secret not known to others. They need to exchange these secrets over person-to-person phone calls so that eventually each person knows all six secrets. None of the Frenchmen knows English and only one Englishman knows French.What is the minimum number of phone calls needed for the above purpose? 
+(A) 5          (B) 15            (C) 9           (D) 10
+2-Coding Problems
+                                                                                                                                                                                                                                                                                  1->    Finding Prime Numbers between Two Numbers 
+2-> Determinant of a matrix.
+
+     IIT KGP 
+Platform : Hacker Earth
+Q1.Number of Islands in a given matrix 
+
+6+
+
+
+
+Q2. Given two Strings find whether all the chars of first string are there in second string or not.  len(str2)> len(str1) in second. String may contain special chars also . 
+
+Note:  Reading Input was the main problem. Both the strings will be given in a line with a vertical line between them. Also string1 and string2 might contain spaces
+Ex:     Input:   I am a bad boy | I am not a bad boy
+
+
+IITBHU citrix coding questions:
+
+There were 2 questions to be done in 1 hour.
+
+1. The question was to tell the separated components(which have 1 value) in a given matrix.
+http://www.geeksforgeeks.org/find-number-of-islands/
+
+e.g.,
+
+100000
+011000
+000000
+011100
+000001
+111010
+
+The answer for above test case would be 4.
+
+2. Tell the indian expansion for a given number.
+
+e.g., if the number is 99999999 then answer will be ninety nine crores ninety nine lakhs ninety nine thousand nine hundred and ninety nine only.
+
+IIT KGP citrix written questions.
+(1 hour apti followed by another 1 hour coding(2 que))
+
+1.Dont remember the actual question but it was related to 8 connectedness, i.e given a matrix of 1's and 0's you need to find number of clusters of 1's. cluster -> for any cell in matrix every 8 adjacent cell for that cell will be in the same cluster.
+
+2. Given two strings check whether one is psuedo-anagram of other.
+conditions:-
+(i)only letters need to be considered.
+e.g. abcd and bc-"ad? are psuedo-anagrams.
+(ii)case-insensitive.
+e.g. abCd and BCaD are psuedo-anagrams.
+(iii)repetition of characters is allowed.
+e.g. abcd and bccaaad are psuedo-anagrams.
+
+aptitude:
+some c, c++ programs,os,quant apti, n/w.......not tough
+
+Citrix at IITG:
+1. Find all primes in given range.
+2. Find determinant of given square matrix.

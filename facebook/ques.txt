@@ -1,0 +1,23 @@
+                Facebook Questions IITB
+Hackerrank, 1.30 hrs
+A matrix is given where each cell has ‘Y’ or ‘N’ . ‘Y’ implies there is grass on it. Connected cells of grass is field (2 cells connected if they share an edge). In a field only one sheep can eat grass. Find number of ways in which even sheep can eat. 
+(Note: 0 is even, nC0 + nC2 + nC4 + … = 2^n-1, Use bfs/dfs and this formula to avoid timeout)
+Minimum insertions required to convert string to palindrome. (Better than n^2 required for passing all test case) 
+ 
+Facebook Question IITKGP
+Hackerrank, 1.30 hrs
+Only one question was asked!!! :D
+Two integers n, k are given s.t. 1<k<2^n. Find the kth ranked binary string of length n out of all the possible strings such that they are sorted according to the following criteria: 
+lower number of 1s in the binary representation => lower rank
+in case of ties, number with lower value(decimal) gets lower rank.
+
+e.g. n=3, k=5
+output = 011
+how?
+all possible binary strings of length 3 in sorted order are: 
+000, 001, 010, 100, 011, 101, 110, 111
+print the 5th string. :)
+Any help on this problem?
+Yes, here: O(n^2) solution => http://code.hackerearth.com/f29854g
+
+
