@@ -11,7 +11,7 @@ LCA in bs
 1) Analyse a given assembly language program and explain what it does.
 2) Simplify a given boolean expression.
 3) Explain a & b in a line each-
-a) void (*p)(void *a[], int n)
+a) void (*p)(void *a[], int n)	
 b) void* (*p[])(void *a, int n)
 
 1) swap 2 integer pointers
@@ -27,23 +27,14 @@ Paper and pen test. All questions related to CSE. No aptitude questions. No MCQâ
 
  Some questions :
 some microprocessor code given, tell answer
-LCA of 2 nodes in BST
 return pointer to middle of linked list in 1 pass
 Array of size n-1 has numbers 1 to n, one number missing, no number repeated, find the missing number
 What is the best STL used to find matching parenthesis 
 some theoretical questions on pointers and function
-find GCD using recursion
 find max. of 3 numbers using  ? :  only
-reverse a doubly linked list
-find 2's compliment of a no. given in string form
-some macro related questions
 Given a Hash function, find value of keys having same hash
 Given order of insertion of nodes, make BST
 given 3AC, a number in base 14, convert it to base 7. (only show working on given example, no code or algo) [ ans = 2105 ]
-Simplify a given boolean expression.
-Explain a) & b) - 
-a) void (*p)(void *a[], int n) 
-b) void* (*p[])(void *a, int n)
 
 
         @IITM

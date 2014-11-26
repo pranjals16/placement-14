@@ -27,11 +27,7 @@ R....
 Output
 4
 
-
-
-
-
-\Input
+Input
 5 5
 ..B..
 ..GRR
