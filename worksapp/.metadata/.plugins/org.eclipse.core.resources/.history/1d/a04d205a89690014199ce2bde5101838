@@ -1,0 +1,93 @@
+import java.util.NoSuchElementException;
+
+public class ImmutableQueue<E>{
+	private static class ImmutableStack<E>{ 
+		/*ImutableQueue using two stacks*/
+		private E head; 
+		private ImmutableStack<E> tail; 
+		private int size; 
+	
+		private ImmutableStack(){
+			this.head = null;
+			this.tail = null;
+			this.size = 0;
+		}
+	
+		private ImmutableStack(E obj,ImmutableStack<E> tail){
+			this.head = obj;
+			this.tail = tail;
+			this.size = tail.size+1;
+		}
+		
+		public static ImmutableStack emptyStack(){
+				return new ImmutableStack();
+		}
+	
+		public boolean isEmpty(){
+			return this.size ==0;
+		}
+
+		public ImmutableStack<E> push(E obj){
+			return new ImmutableStack(obj,this);
+		}
+
+		public ImmutableStack<E> toReverseStack(){
+			ImmutableStack<E> stack = new ImmutableStack<E>();
+			ImmutableStack<E> tail = this;
+			while(!tail.isEmpty()){
+				stack = stack.push(tail.head);
+				tail = tail.tail;
+			}
+			return stack;
+		}
+	}
+	
+	private ImmutableStack<E> normal;
+	private ImmutableStack<E> reverse;
+
+	public ImmutableQueue(){
+		this.normal = ImmutableStack.emptyStack();
+		this.reverse = ImmutableStack.emptyStack();
+	}
+
+	public ImmutableQueue(ImmutableStack<E> normal,ImmutableStack<E> reverse){
+		this.normal = normal;
+		this.reverse = reverse;
+	}
+
+	private void balanceQueue(){
+		this.reverse= this.normal.toReverseStack();
+		this.normal = ImmutableStack.emptyStack();
+	}
+
+	public ImmutableQueue<E> enqueue(E input){
+		if(input==null)
+			throw new IllegalArgumentException();
+		return new ImmutableQueue<E>(this.normal.push(input),this.reverse);
+	}
+
+	public ImmutableQueue<E> dequeue(){
+		if(this.isEmpty())
+			throw new NoSuchElementException();
+		if(!this.reverse.isEmpty())
+			return new ImmutableQueue<E>(this.normal,this.reverse.tail);
+		else
+			return new ImmutableQueue<E>(ImmutableStack.emptyStack(),this.normal.toReverseStack().tail);
+	}
+	
+	public E peek(){
+		if(this.isEmpty())
+			throw new NoSuchElementException();
+		if(this.reverse.isEmpty())
+			balanceQueue();
+		return this.reverse.head;
+	}
+	
+	public boolean isEmpty(){
+		return size()==0;
+	}
+	
+	public int size(){
+		return this.normal.size + this.reverse.size;
+	}
+}

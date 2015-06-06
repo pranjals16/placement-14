@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class ImmutableQueue<Integer> {
+
+	/**
+	 * @param args
+	 */
+	private List<Integer> queue;
+	public ImmutableQueue(){
+		queue=new ArrayList<Integer>();
+	}
+	
+	public ImmutableQueue(List<Integer> queue){
+		this.queue=queue;
+	}
+	public ImmutableQueue<Integer> enqueue(Integer e){
+		if(e==null)
+			throw new IllegalArgumentException();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class ImmutableQueue {
+
+	/**
+	 * @param args
+	 */
+	private List<int> queue;
+	public ImmutableQueue(){
+		queue=new ArrayList<int>();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

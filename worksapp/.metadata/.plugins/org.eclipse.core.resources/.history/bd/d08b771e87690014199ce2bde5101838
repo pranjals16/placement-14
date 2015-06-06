@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+
+public class ImmutableQueue<E> {
+
+	/**
+	 * @param args
+	 */
+	private List<E> queue;
+	public ImmutableQueue(){
+		queue=new ArrayList<E>();
+	}
+	
+	public ImmutableQueue(List<E> queue){
+		this.queue=queue;
+	}
+	public ImmutableQueue<E> enqueue(E e){
+		if(e==null)
+			throw new IllegalArgumentException();
+		List<E> copy= new ArrayList<E>(queue);
+		copy.add(e);
+		return new ImmutableQueue<E>(copy);
+	}
+	public ImmutableQueue<E> dequeue(){
+		if(queue.isEmpty())
+			throw new NoSuchElementException();
+		List<E> copy= new ArrayList<E>(queue);
+		copy.remove(0);
+		return new ImmutableQueue<E>(copy);
+	}
+	public E peek(){
+		if(queue.isEmpty())
+			throw new NoSuchElementException();
+		return queue.get(0);
+	}
+	public int size(){
+		if(queue.size()==0)
+			return -1;
+		return queue.size();
+	}
+}

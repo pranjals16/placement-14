@@ -1,0 +1,14 @@
+
+public class print {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ImmutableQueue qu=new ImmutableQueue();
+		qu=qu.enqueue(1);
+		qu=qu.enqueue(2);
+		System.out.println(qu.size());
+	}
+
+}
